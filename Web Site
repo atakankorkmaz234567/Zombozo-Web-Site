@@ -151,34 +151,47 @@ Oyuncu, salgının ilk günlerinde hayatta kalmayı başarmış az sayıdaki ki�
         </div>
     </div>
 </section>
-<section class="py-5" id="iletisim">
+<section class="py-5 bg-black">
     <div class="container">
-        <h2 class="display-4 fw-bold text-center text-danger mb-5">İletişim</h2>
+        <h2 class="display-4 fw-bold text-center text-danger mb-5 zombozo-section-title">OYUN İÇİ GÖRÜNTÜ</h2>
         <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <form class="p-5 rounded bg-secondary shadow">
-                    <div class="mb-3">
-                        <label for="inputAdSoyad" class="form-label text-white">Adınız Soyadınız</label>
-                        <input type="text" class="form-control bg-dark text-white border-danger" id="inputAdSoyad">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputEmail" class="form-label text-white">E-Posta Adresiniz</label>
-                        <input type="email" class="form-control bg-dark text-white border-danger" id="inputEmail">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputMesaj" class="form-label text-white">Mesajınız</label>
-                        <textarea class="form-control bg-dark text-white border-danger" id="inputMesaj" rows="4"></textarea>
-                    </div>
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-danger btn-lg">Gönder</button>
-                    </div>
-                </form>
+            <div class="col-lg-10 col-md-12 text-center">
+                <img src="Ekran görüntüsü 2025-11-17 213955.jpg" alt="Oyundan Ana Menü Görseli" class="img-fluid rounded shadow-lg">
             </div>
         </div>
     </div>
 </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+<section class="py-5 contact-section" id="iletisim">
+    <div class="container">
+        <h2 class="display-4 fw-bold text-center text-danger mb-5 zombozo-section-title">TEMAS NOKTASI</h2>
+        <p class="lead text-center text-white-50 mb-5">
+           Hayatta Kalmayı Başarabildiysen Oyun Hakkında Önerebileceğin Veya Hataları Aşşağıdaki İletişim Bölümünden Bana Ulaşıp Söyleyebilirisiniz.
+            <br>
+            Zombozo Şehrindeki Tek iletişim Noktası Burasıdır
+        </p>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="contact-card p-5 rounded shadow-lg text-white text-center">
+                    
+                    <h3 class="fw-bold text-danger mb-4">Proje Sahibi ve Geliştirici</h3>
+                    
+                    <ul class="list-unstyled contact-info-list">
+                        <li class="mb-3">
+                            <i class="fas fa-user-circle fa-2x text-danger me-3"></i>
+                            <span class="fs-4 fw-light text-white d-block d-sm-inline">Atakan KORKMAZ</span>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-phone-alt fa-2x text-danger me-3"></i>
+                            <span class="fs-4 fw-light text-white d-block d-sm-inline">0530 460 20 76</span>
+                        </li>
+                          <li class="mb-3">
+                            <i class="fas fa-phone-alt fa-2x text-danger me-3"></i>
+                            <span class="fs-4 fw-light text-white d-block d-sm-inline">atakankorkmaz0932@gmail.com</span>
+                        </li>
+                        <li class="mb-0">
+                            <i class="fas fa-envelope fa-2x text-danger me-3"></i>
+                            <span class="fs-4 fw-light text-white d
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
             crossorigin="anonymous">
     </script>
@@ -186,10 +199,8 @@ Oyuncu, salgının ilk günlerinde hayatta kalmayı başarmış az sayıdaki ki�
 </html>
 
 
-
 __________________________________________________________________________________________________________________________________________________________________
 CSS
-
 
 
 
@@ -224,5 +235,3 @@ body {
 .shadow {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
 }
-
-
