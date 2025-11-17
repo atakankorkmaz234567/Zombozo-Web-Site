@@ -184,3 +184,45 @@ Oyuncu, salgının ilk günlerinde hayatta kalmayı başarmış az sayıdaki ki�
     </script>
 </body>
 </html>
+
+
+
+__________________________________________________________________________________________________________________________________________________________________
+CSS
+
+
+
+
+.zombozo-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+body {
+    padding-top: 56px;
+}
+
+.custom-bg {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #1a1a1a;
+}
+
+.hero-section {
+    padding-top: 100px !important;
+}
+
+.logo-underline {
+    border-bottom: 3px solid #dc3545;
+    padding-bottom: 2px;
+}
+
+.shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+
